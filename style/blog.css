@@ -10,7 +10,7 @@
 }
 .header{
    /* max-width: 1440px; */
-    height: 740px;
+    /* height: 740px; */
     /* border: 2px solid rebeccapurple; */
     background-color: rgba(17, 17, 17, 1);
 }
@@ -26,8 +26,7 @@
 }
 nav ul{
   display: flex;
-  align-items: center
-  ;
+  align-items: center;
   margin-right: 20px;
 }
 nav ul li{
@@ -417,4 +416,121 @@ padding: 0 180px 50px;
 .hr-description{
   margin-top: 30px;
   color: rgba(255, 255, 255, 0.5);
+}
+@media screen and  (max-width: 576px) {
+  .nav-bar-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+   margin: 0 0;
+   padding: 40px;
+  }
+  .nav-bar-links{
+    display: none;
+  }
+  .hide{
+    display: block;
+    color: white;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-content{
+    width: 100%;
+    padding: 20px;
+    /* margin: 0 0; */
+  }
+  .banner-image{
+    width: 100%;
+    margin: 0 0;
+    padding: 20px;
+  }
+  .card-primary{
+    left: 180px;
+  }
+  .card-secondary{
+   left: 30px;
+  }
+  .habits-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+  }
+  .habits-container{
+  height: 100%;
+  }
+  .run-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .run-section{
+    height: 100%;
+    padding: 20px;
+  }
+  .run-content{
+    width: 100%;
+  }
+  .run-container-image{
+    width: 100%;
+  }
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .form-section{
+    height: 700px;
+    /* border: 2px solid rebeccapurple; */
+  }
+  .form-chart-content{
+    width: 100%;
+   padding-left: 20px;
+  }
+  .normal-form{
+    width: 100%;
+    padding: 20px;
+  }
+  .team-image-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ padding-right: 25px;
+  }
+  .team-container{
+    height: 100%;
+    padding: 20px;
+  }
+  .trainer-position-card, .trainer2-position-card, .trainer3-position-card{
+    display: none;
+  }
+  .footer-primary{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    padding: 20px;
+  }
+  .footer1 {
+    width: 100%;
+    margin: 0 0;
+    padding: 20px;
+  }
+  .footer2{
+    width: 100%;
+    padding: 20px;
+  }
+  .footer3{
+    width: 100%;
+    padding: 20px;
+  }
+  .hr-tag{
+    width: 100%;
+    margin: 0 0;
+    padding: 10px;
+  }
+  
 }
